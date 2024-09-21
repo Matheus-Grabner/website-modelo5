@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silk Code - Impulsionando o seu crescimento</title>
+    <title>SILK CODE - Impulsionando o seu crescimento</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 font-sans">
+<body id="body" class="bg-gray-100 font-sans">
     <header class="bg-white shadow-md">
         <nav class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
-                <div class="text-xl font-bold text-gray-800">Silk Code</div>
+                <div class="text-xl font-bold text-gray-800">SILK CODE</div>
                 <div class="hidden md:flex space-x-6">
                     <a href="#services"
                         class="text-sm font-medium text-gray-700 hover:text-blue-500 transition duration-300 ease-in-out">Serviços</a>
                     <a href="#contact"
                         class="text-sm font-medium text-gray-700 hover:text-blue-500 transition duration-300 ease-in-out">Contato</a>
-                    <a href="#testimonials"
+                    <!-- <a href="#testimonials"
                         class="text-sm font-medium text-gray-700 hover:text-blue-500 transition duration-300 ease-in-out">Depoimentos</a>
                     <a href="#achievements"
-                        class="text-sm font-medium text-gray-700 hover:text-blue-500 transition duration-300 ease-in-out">Conquistas</a>
+                        class="text-sm font-medium text-gray-700 hover:text-blue-500 transition duration-300 ease-in-out">Conquistas</a> -->
                 </div>
             </div>
         </nav>
@@ -207,7 +208,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Sobre Nós</h3>
-                    <p class="text-gray-400">Silk Code é líder em consultoria empresarial e soluções tecnológicas.</p>
+                    <p class="text-gray-400">SILK CODE é líder em consultoria empresarial e soluções tecnológicas.</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
@@ -234,34 +235,12 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center text-gray-400">
-                <p>&copy; 2023 Silk Code. Todos os direitos reservados.</p>
+                <p>&copy; 2023 SILK CODE. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Validação em tempo real para e-mail
-        const emailInput = document.getElementById('email');
-        const emailError = document.getElementById('email-error');
-        emailInput.addEventListener('input', function () {
-            if (emailInput.validity.valid) {
-                emailError.classList.add('hidden');
-            } else {
-                emailError.classList.remove('hidden');
-            }
-        });
-
-        // Validação em tempo real para número de telefone
-        const phoneInput = document.getElementById('phone');
-        const phoneError = document.getElementById('phone-error');
-        phoneInput.addEventListener('input', function () {
-            if (phoneInput.validity.valid) {
-                phoneError.classList.add('hidden');
-            } else {
-                phoneError.classList.remove('hidden');
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
