@@ -5,7 +5,24 @@
 }
 
 #primeira-secao {
-    background-color: #c1936b;
+    background-color: #F2F3F4;
+}
+
+#services {
+    background-color: #F2F3F4;
+}
+
+#testimonials {
+    background-color: #F2F3F4;
+}
+
+#contact {
+    background-color: #EBEAED;
+}
+
+#newsletter {
+    background-color: #F2F3F4;
+
 }
 
 /* Para a barra de rolagem em navegadores baseados em Webkit */
