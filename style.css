@@ -4,6 +4,10 @@
     font-family: "Red Hat Display";
 }
 
+#primeira-secao {
+    background-color: #c1936b;
+}
+
 /* Para a barra de rolagem em navegadores baseados em Webkit */
 ::-webkit-scrollbar {
     width: 8px;
